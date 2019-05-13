@@ -2,11 +2,308 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40b4413f-3f98-442d-aca5-d5af09d61f48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/biyesheji.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.hibernateSynchronizer3/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/.jsdtscope" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/com.genuitec.eclipse.migration.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/AddCategory.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/.struts-config.mex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/Course.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/Course.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/EncodingFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/Grade.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/Grade.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/GradePK.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/HibernateSessionFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/Message.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/Note.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/Note.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/PageControlServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/Sc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/Sc.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/SignonFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/Student.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/Teacher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/Teacher.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/addStudentServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/addTeacherServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/base/BaseCourse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/base/BaseCourseDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/base/BaseGrade.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/base/BaseGradeDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/base/BaseGradePK.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/base/BaseMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/base/BaseMessageDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/base/BaseNote.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/base/BaseNoteDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/base/BaseSc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/base/BaseScDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/base/BaseStudent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/base/BaseStudentDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/base/BaseTeacher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/base/BaseTeacherDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/base/_BaseRootDAO$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/base/_BaseRootDAO$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/base/_BaseRootDAO$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/base/_BaseRootDAO$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/base/_BaseRootDAO$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/base/_BaseRootDAO$ThreadRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/base/_BaseRootDAO$TransactionFailHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/base/_BaseRootDAO$TransactionPointer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/base/_BaseRootDAO$TransactionRunnable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/base/_BaseRootDAO$TransactionRunnableFailHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/base/_BaseRootDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/changeGradeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/courseInfoServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/dao/CourseDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/dao/GradeDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/dao/MessageDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/dao/NoteDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/dao/ScDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/dao/StudentDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/dao/TeacherDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/dao/_RootDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/dao/iface/CourseDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/dao/iface/GradeDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/dao/iface/MessageDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/dao/iface/NoteDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/dao/iface/ScDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/dao/iface/StudentDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/dao/iface/TeacherDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/deleteCourseServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/deleteMessageServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/deleteStudentServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/deleteTeacherServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/f_tScServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/t_fScServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/jspdev/biyesheji/util/HibernateUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/yourcompany/struts/ApplicationResources.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/yourcompany/struts/action/CancelScAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/yourcompany/struts/action/CourseAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/yourcompany/struts/action/CoursesQueryAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/yourcompany/struts/action/DeleteCoursesAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/yourcompany/struts/action/DeleteStudentsAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/yourcompany/struts/action/DeleteTeachersAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/yourcompany/struts/action/GradeAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/yourcompany/struts/action/GradeQueryAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/yourcompany/struts/action/LoginAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/yourcompany/struts/action/MessageAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/yourcompany/struts/action/NoteAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/yourcompany/struts/action/PasswordAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/yourcompany/struts/action/ScAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/yourcompany/struts/action/StuInfoAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/yourcompany/struts/action/StudentsQueryAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/yourcompany/struts/action/TeaInfoAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/yourcompany/struts/action/TeachersQueryAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/yourcompany/struts/form/CancelScForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/yourcompany/struts/form/CourseForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/yourcompany/struts/form/CoursesQueryForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/yourcompany/struts/form/DeleteCoursesForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/yourcompany/struts/form/DeleteStudentsForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/yourcompany/struts/form/DeleteTeachersForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/yourcompany/struts/form/GradeForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/yourcompany/struts/form/GradeQueryForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/yourcompany/struts/form/LoginForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/yourcompany/struts/form/MessageForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/yourcompany/struts/form/NoteForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/yourcompany/struts/form/PasswordForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/yourcompany/struts/form/ScForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/yourcompany/struts/form/StuInfoForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/yourcompany/struts/form/StudentsQueryForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/yourcompany/struts/form/TeaInfoForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/yourcompany/struts/form/TeachersQueryForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/jta.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/msbase.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/mssqlserver.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/msutil.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/standard.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/struts-bean.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/struts-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/struts-html.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/struts-logic.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/struts-nested.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/struts-tiles.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/validator-rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/box/addSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/box/changeSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/box/deleteSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/box/operateSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/css/Menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/css/Operation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/css/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/addCourse.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/addGrade.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/addMessage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/addNotes.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/addStudent.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/addSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/addTeacher.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/allGrade.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/cancelSc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/changeCourseInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/changeGrade.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/changePassword.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/changeStuInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/changeTeaInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/choseCourse.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/choseStudent.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/courseInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/coursesQuery.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/coursesQueryResult.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/deleteCourse.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/deleteCourses.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/deleteMessage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/deleteStudent.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/deleteTeacher.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/gradeQuery.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/manager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/managerFunction.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/managerHead.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/nothing.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/student.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/studentFunction.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/studentHead.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/studentsQuery.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/studentsQueryResult.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/tail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/teacher.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/teacherFunction.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/teacherHead.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/teachersQuery.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/teachersQueryResult.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/termGrade.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/viewCourses.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/viewGrade.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/viewMessage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/viewNotes.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/viewSelectedStu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/viewStuInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/viewStudents.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/viewTeaCourse.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/viewTeaInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/viewTeachers.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/form/yearGrade.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/image/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/image/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/image/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/image/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/image/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/loginFrame.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/midLogin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/Course.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/EncodingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/Grade.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/GradePK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/HibernateSessionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/Message.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/Note.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/PageControlServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/Sc.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/Sc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/SignonFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/Student.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/Teacher.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/addStudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/addTeacherServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/base/BaseCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/base/BaseCourseDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/base/BaseGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/base/BaseGradeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/base/BaseGradePK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/base/BaseMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/base/BaseMessageDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/base/BaseNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/base/BaseNoteDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/base/BaseSc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/base/BaseScDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/base/BaseStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/base/BaseStudentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/base/BaseTeacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/base/BaseTeacherDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/base/_BaseRootDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/changeGradeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/courseInfoServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/dao/CourseDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/dao/GradeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/dao/MessageDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/dao/NoteDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/dao/ScDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/dao/StudentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/dao/TeacherDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/dao/_RootDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/dao/iface/CourseDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/dao/iface/GradeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/dao/iface/MessageDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/dao/iface/NoteDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/dao/iface/ScDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/dao/iface/StudentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/dao/iface/TeacherDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/deleteCourseServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/deleteMessageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/deleteStudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/deleteTeacherServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/f_tScServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/t_fScServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jspdev/biyesheji/util/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yourcompany/struts/ApplicationResources.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yourcompany/struts/action/CancelScAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yourcompany/struts/action/CourseAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yourcompany/struts/action/CoursesQueryAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yourcompany/struts/action/DeleteCoursesAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yourcompany/struts/action/DeleteStudentsAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yourcompany/struts/action/DeleteTeachersAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yourcompany/struts/action/GradeAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yourcompany/struts/action/GradeQueryAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yourcompany/struts/action/LoginAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yourcompany/struts/action/MessageAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yourcompany/struts/action/NoteAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yourcompany/struts/action/PasswordAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yourcompany/struts/action/ScAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yourcompany/struts/action/StuInfoAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yourcompany/struts/action/StudentsQueryAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yourcompany/struts/action/TeaInfoAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yourcompany/struts/action/TeachersQueryAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yourcompany/struts/form/CancelScForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yourcompany/struts/form/CourseForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yourcompany/struts/form/CoursesQueryForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yourcompany/struts/form/DeleteCoursesForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yourcompany/struts/form/DeleteStudentsForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yourcompany/struts/form/DeleteTeachersForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yourcompany/struts/form/GradeForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yourcompany/struts/form/GradeQueryForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yourcompany/struts/form/LoginForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yourcompany/struts/form/MessageForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yourcompany/struts/form/NoteForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yourcompany/struts/form/PasswordForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yourcompany/struts/form/ScForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yourcompany/struts/form/StuInfoForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yourcompany/struts/form/StudentsQueryForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yourcompany/struts/form/TeaInfoForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yourcompany/struts/form/TeachersQueryForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +316,61 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="tld" value="1" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="XML" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
     </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/struts-config.xml">
+          <provider editor-type-id="com.intellij.struts.diagram.DiagramEditorProvider" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3378" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/struts-html.tld">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1254" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,6 +408,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -72,13 +421,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557709794732" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -122,31 +471,35 @@
       <option name="presentableId" value="Default" />
       <updated>1557708866660</updated>
       <workItem from="1557708868392" duration="545000" />
+      <workItem from="1557709421431" duration="369000" />
     </task>
+    <task id="LOCAL-00001" summary="4">
+      <created>1557709556865</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557709556865</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="545000" />
+    <option name="totallyTimeSpent" value="914000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="11" y="6" width="1335" height="688" extended-state="0" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25882354" />
+      <window_info id="Persistence" side_tool="true" />
+      <window_info id="Struts Assistant" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2627451" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="SonarLint" />
-      <window_info anchor="bottom" id="Jelastic" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="MyBatis Sql Log" />
-      <window_info anchor="bottom" id="Tail" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -154,16 +507,25 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="RestServices" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="SonarLint" order="11" />
+      <window_info anchor="bottom" id="Jelastic" order="12" />
+      <window_info anchor="bottom" id="Tail" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="RestServices" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +533,30 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="4" />
+    <option name="LAST_COMMIT_MESSAGE" value="4" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/struts-config.xml">
+      <provider editor-type-id="com.intellij.struts.diagram.DiagramEditorProvider" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3378" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/struts-html.tld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1254" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
